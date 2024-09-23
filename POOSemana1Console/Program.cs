@@ -8,11 +8,7 @@ namespace POOSemana1Console
 {
     internal class Program
     {
-        //Problema:algoritmo para validar numero mayor y numero menor de 3 numero dados
-        //algoritmo:
-        //1 - Pedir los numeros al usuario
-        //2 - si primero es mayor que el segundo
-        //3 - 
+      
 
         static void Main(string[] args)
         {
