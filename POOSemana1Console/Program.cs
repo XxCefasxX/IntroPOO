@@ -16,19 +16,34 @@ namespace POOSemana1Console
 
         static void Main(string[] args)
         {
-
-            Console.WriteLine("Que desea hacer?");
-            Console.WriteLine("1- Validar numeros primos");
-            Console.WriteLine("2- Validar numero mayor y numero menor");
-            int op = Convert.ToInt32(Console.ReadLine());
-            switch (op)
+            bool continuar = true;
+            while (continuar)
             {
-                case 1:
-                    NumerosPirmos();
-                    break;
-                case 2:
-                    NumeroMayorNUmeroMenor();
-                    break;
+                Console.WriteLine("Que desea hacer?");
+                Console.WriteLine("0- Salir");
+                Console.WriteLine("1- Validar numeros primos");
+                Console.WriteLine("2- Validar numero mayor y numero menor");
+                int op = Convert.ToInt32(Console.ReadLine());
+                switch (op)
+                {
+                    case 0:
+                        continuar = false;
+                        break;
+                    case 1:
+                        NumerosPirmos();
+                        break;
+                    case 2:
+                        NumeroMayorNUmeroMenor();
+                        break;
+                }
+                if (continuar)
+                {
+                    Console.WriteLine("Desea realizar otra operacion?");
+                    Console.WriteLine("S- SI");
+                    Console.WriteLine("N- NO");
+                    continuar = char.ToUpper(Console.ReadKey().KeyChar) == 'S';
+                    Console.Clear();
+                }
             }
             Console.ReadLine();
         }
@@ -70,7 +85,7 @@ namespace POOSemana1Console
             return true;
         }
 
-        private static void NumeroMayorNUmeroMenor() 
+        private static void NumeroMayorNUmeroMenor()
         {
             int num1 = 0;
             int num2 = 0;
