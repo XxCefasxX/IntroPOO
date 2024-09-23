@@ -1,0 +1,10 @@
+C:\Users\salaz\OneDrive\Escritorio\unidep\POO\Semana1\IntroPOO\bin\Debug\IntroPOO.exe.config
+C:\Users\salaz\OneDrive\Escritorio\unidep\POO\Semana1\IntroPOO\bin\Debug\IntroPOO.exe
+C:\Users\salaz\OneDrive\Escritorio\unidep\POO\Semana1\IntroPOO\bin\Debug\IntroPOO.pdb
+C:\Users\salaz\OneDrive\Escritorio\unidep\POO\Semana1\IntroPOO\obj\Debug\IntroPOO.csproj.AssemblyReference.cache
+C:\Users\salaz\OneDrive\Escritorio\unidep\POO\Semana1\IntroPOO\obj\Debug\IntroPOO.Form1.resources
+C:\Users\salaz\OneDrive\Escritorio\unidep\POO\Semana1\IntroPOO\obj\Debug\IntroPOO.Properties.Resources.resources
+C:\Users\salaz\OneDrive\Escritorio\unidep\POO\Semana1\IntroPOO\obj\Debug\IntroPOO.csproj.GenerateResource.cache
+C:\Users\salaz\OneDrive\Escritorio\unidep\POO\Semana1\IntroPOO\obj\Debug\IntroPOO.csproj.CoreCompileInputs.cache
+C:\Users\salaz\OneDrive\Escritorio\unidep\POO\Semana1\IntroPOO\obj\Debug\IntroPOO.exe
+C:\Users\salaz\OneDrive\Escritorio\unidep\POO\Semana1\IntroPOO\obj\Debug\IntroPOO.pdb

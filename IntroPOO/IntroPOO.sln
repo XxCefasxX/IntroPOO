@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroPOO", "IntroPOO.csproj", "{BD0AECA6-3CC9-43B7-8B27-512AD4E07E4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POOSemana1Console", "..\POOSemana1Console\POOSemana1Console.csproj", "{69B7EC4D-975C-4CE8-A4AF-06832BF2A15F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD0AECA6-3CC9-43B7-8B27-512AD4E07E4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD0AECA6-3CC9-43B7-8B27-512AD4E07E4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD0AECA6-3CC9-43B7-8B27-512AD4E07E4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD0AECA6-3CC9-43B7-8B27-512AD4E07E4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69B7EC4D-975C-4CE8-A4AF-06832BF2A15F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69B7EC4D-975C-4CE8-A4AF-06832BF2A15F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69B7EC4D-975C-4CE8-A4AF-06832BF2A15F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69B7EC4D-975C-4CE8-A4AF-06832BF2A15F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C8BA4EC-0B10-4EE4-B3CC-7774B28D34CB}
+	EndGlobalSection
+EndGlobal

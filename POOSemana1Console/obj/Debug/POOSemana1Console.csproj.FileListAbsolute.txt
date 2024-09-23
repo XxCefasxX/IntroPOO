@@ -1,0 +1,7 @@
+C:\Users\salaz\OneDrive\Escritorio\unidep\POO\Semana1\POOSemana1Console\bin\Debug\POOSemana1Console.exe.config
+C:\Users\salaz\OneDrive\Escritorio\unidep\POO\Semana1\POOSemana1Console\bin\Debug\POOSemana1Console.exe
+C:\Users\salaz\OneDrive\Escritorio\unidep\POO\Semana1\POOSemana1Console\bin\Debug\POOSemana1Console.pdb
+C:\Users\salaz\OneDrive\Escritorio\unidep\POO\Semana1\POOSemana1Console\obj\Debug\POOSemana1Console.csproj.AssemblyReference.cache
+C:\Users\salaz\OneDrive\Escritorio\unidep\POO\Semana1\POOSemana1Console\obj\Debug\POOSemana1Console.csproj.CoreCompileInputs.cache
+C:\Users\salaz\OneDrive\Escritorio\unidep\POO\Semana1\POOSemana1Console\obj\Debug\POOSemana1Console.exe
+C:\Users\salaz\OneDrive\Escritorio\unidep\POO\Semana1\POOSemana1Console\obj\Debug\POOSemana1Console.pdb
