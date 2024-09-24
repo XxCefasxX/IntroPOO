@@ -14,6 +14,7 @@ namespace Ordenamiento
     {
         // Lista de números a ordenar
         private int[] numeros = { 5, 1, 4, 2, 8};
+        //private int[] numeros = { 64, 34, 25, 12, 22, 11, 90 };
 
         // Variables del algoritmo de burbuja
         private int i = 0;
