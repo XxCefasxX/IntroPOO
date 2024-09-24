@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroPOO", "IntroPOO.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POOSemana1Console", "..\POOSemana1Console\POOSemana1Console.csproj", "{69B7EC4D-975C-4CE8-A4AF-06832BF2A15F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordenamiento", "..\Ordenamiento\Ordenamiento.csproj", "{FF0F3BE0-5C32-444C-89DC-DD441F3C746C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{69B7EC4D-975C-4CE8-A4AF-06832BF2A15F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69B7EC4D-975C-4CE8-A4AF-06832BF2A15F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69B7EC4D-975C-4CE8-A4AF-06832BF2A15F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF0F3BE0-5C32-444C-89DC-DD441F3C746C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF0F3BE0-5C32-444C-89DC-DD441F3C746C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF0F3BE0-5C32-444C-89DC-DD441F3C746C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF0F3BE0-5C32-444C-89DC-DD441F3C746C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

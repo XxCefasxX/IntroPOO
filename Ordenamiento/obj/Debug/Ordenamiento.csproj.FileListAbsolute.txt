@@ -1,0 +1,11 @@
+D:\Proyectos\UNIDEP\POO\IntroPOO\Ordenamiento\bin\Debug\Ordenamiento.exe.config
+D:\Proyectos\UNIDEP\POO\IntroPOO\Ordenamiento\bin\Debug\Ordenamiento.exe
+D:\Proyectos\UNIDEP\POO\IntroPOO\Ordenamiento\bin\Debug\Ordenamiento.pdb
+D:\Proyectos\UNIDEP\POO\IntroPOO\Ordenamiento\obj\Debug\Ordenamiento.csproj.AssemblyReference.cache
+D:\Proyectos\UNIDEP\POO\IntroPOO\Ordenamiento\obj\Debug\Ordenamiento.Properties.Resources.resources
+D:\Proyectos\UNIDEP\POO\IntroPOO\Ordenamiento\obj\Debug\Ordenamiento.csproj.GenerateResource.cache
+D:\Proyectos\UNIDEP\POO\IntroPOO\Ordenamiento\obj\Debug\Ordenamiento.csproj.CoreCompileInputs.cache
+D:\Proyectos\UNIDEP\POO\IntroPOO\Ordenamiento\obj\Debug\Ordenamiento.exe
+D:\Proyectos\UNIDEP\POO\IntroPOO\Ordenamiento\obj\Debug\Ordenamiento.pdb
+D:\Proyectos\UNIDEP\POO\IntroPOO\Ordenamiento\obj\Debug\Ordenamiento.Burbuja.resources
+D:\Proyectos\UNIDEP\POO\IntroPOO\Ordenamiento\obj\Debug\Ordenamiento.Seleccion.resources
