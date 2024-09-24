@@ -9,3 +9,14 @@ D:\Proyectos\UNIDEP\POO\IntroPOO\Ordenamiento\obj\Debug\Ordenamiento.exe
 D:\Proyectos\UNIDEP\POO\IntroPOO\Ordenamiento\obj\Debug\Ordenamiento.pdb
 D:\Proyectos\UNIDEP\POO\IntroPOO\Ordenamiento\obj\Debug\Ordenamiento.Burbuja.resources
 D:\Proyectos\UNIDEP\POO\IntroPOO\Ordenamiento\obj\Debug\Ordenamiento.Seleccion.resources
+C:\Users\salaz\OneDrive\Escritorio\unidep\POO\Semana1\Ordenamiento\bin\Debug\Ordenamiento.exe.config
+C:\Users\salaz\OneDrive\Escritorio\unidep\POO\Semana1\Ordenamiento\bin\Debug\Ordenamiento.exe
+C:\Users\salaz\OneDrive\Escritorio\unidep\POO\Semana1\Ordenamiento\bin\Debug\Ordenamiento.pdb
+C:\Users\salaz\OneDrive\Escritorio\unidep\POO\Semana1\Ordenamiento\obj\Debug\Ordenamiento.csproj.AssemblyReference.cache
+C:\Users\salaz\OneDrive\Escritorio\unidep\POO\Semana1\Ordenamiento\obj\Debug\Ordenamiento.Burbuja.resources
+C:\Users\salaz\OneDrive\Escritorio\unidep\POO\Semana1\Ordenamiento\obj\Debug\Ordenamiento.Seleccion.resources
+C:\Users\salaz\OneDrive\Escritorio\unidep\POO\Semana1\Ordenamiento\obj\Debug\Ordenamiento.Properties.Resources.resources
+C:\Users\salaz\OneDrive\Escritorio\unidep\POO\Semana1\Ordenamiento\obj\Debug\Ordenamiento.csproj.GenerateResource.cache
+C:\Users\salaz\OneDrive\Escritorio\unidep\POO\Semana1\Ordenamiento\obj\Debug\Ordenamiento.csproj.CoreCompileInputs.cache
+C:\Users\salaz\OneDrive\Escritorio\unidep\POO\Semana1\Ordenamiento\obj\Debug\Ordenamiento.exe
+C:\Users\salaz\OneDrive\Escritorio\unidep\POO\Semana1\Ordenamiento\obj\Debug\Ordenamiento.pdb

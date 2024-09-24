@@ -154,6 +154,7 @@ namespace POOSemana1Console
             }
         }
 
+
         private static void MayorDeUnaLista()
         {
             bool continuar = true;
@@ -170,20 +171,19 @@ namespace POOSemana1Console
                 Console.Clear();
             }
             bool esMayor = false;
+            int mayor = 0;
             for (int i = 0; i < lista.Count; i++)//FOR 1
             {
                 int N = lista[i];//obtener numero de la lista 
                 for (int j = 0; j < lista.Count; j++)//FOR 2
                 {
                     int M = lista[j];//obtener numero del segundo for
-                    if (N < M)
-                    {
-                        break;
-                    }
-                    else if (N == M || N > M)
+
+                    if (N == M || N > M)
                     {
                         if (j == lista.Count - 1)
                         {
+                            mayor = N;
                             esMayor = true;
                         }
                     }
@@ -195,7 +195,7 @@ namespace POOSemana1Console
                     break;
                 }
             }
-            Console.WriteLine("El numero mayor es:");
+            Console.WriteLine($"El numero mayor es: {mayor}");
         }
     }
 }
