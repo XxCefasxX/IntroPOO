@@ -8,8 +8,12 @@ namespace MiniTienda
 {
     class Carrito
     {
-        public List<Producto> Lista { get; set; } = new List<Producto>();
+        public List<Producto> Lista { get; set; } 
 
+        public Carrito()
+        {
+            Lista = new List<Producto>();
+        }
         public void AgregarProducto(Producto producto)
         {
             Lista.Add(producto);

@@ -10,6 +10,7 @@ namespace MiniTienda
     {
         static void Main(string[] args)
         {
+
             Carrito carrito= new Carrito();
             
             //pedir productos hasta que el usuario quiera

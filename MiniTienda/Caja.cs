@@ -8,6 +8,16 @@ namespace MiniTienda
 {
     class Caja
     {
+        public int Numero { get; set; }
+
+        public Caja()
+        {
+            Numero = 0;
+        }
+        public Caja(int numero)
+        {
+            Numero = numero;
+        }
         //mostrar la lista de productos y el total del carrito
         public void Cobrar(Carrito carrito)
         {
