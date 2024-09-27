@@ -9,5 +9,14 @@ namespace Tienda
     class Carrito
     {
         public List<Articulo> Lista { get; set; }
+
+        public Carrito()
+        {
+            Lista = new List<Articulo>();
+        }
+        public void AgregarArticulo(Articulo articulo)
+        {
+            Lista.Add(articulo);
+        }
     }
 }

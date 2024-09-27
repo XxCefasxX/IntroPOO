@@ -8,7 +8,8 @@ namespace Tienda
 {
     class Catalogo
     {
-        private static  List<Articulo> Inventario { get; set; }
+        private static List<Articulo> Inventario { get; set; }
+
 
         private static void LlenarCatalogo()
         {
@@ -25,11 +26,15 @@ namespace Tienda
         public static void MostrarCatalogo()
         {
             LlenarCatalogo();
-            foreach(Articulo art in Inventario)
+            foreach (Articulo art in Inventario)
             {
                 Console.Write($"{art.ID} - {art.Nombre} - {art.Precio}\n");
             }
-            
+        }
+
+        public static Articulo BuscarArticuloPorID(int artID)
+        {
+           return Inventario.Find(articulo => articulo.ID.Equals(artID));
         }
     }
 }
