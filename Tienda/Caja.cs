@@ -36,9 +36,9 @@ namespace Tienda
             float iva = Subtotal * .16f;
             Total = Subtotal + iva;
 
-            Console.WriteLine($"Sub total : {Subtotal}");
-            Console.WriteLine($"I.V.A. : {Subtotal * .16}");
-            Console.WriteLine($"Total : {Total}");
+            Console.WriteLine($"Sub total : {Subtotal.ToString(".00")}");
+            Console.WriteLine($"I.V.A. : {(Subtotal * .16).ToString(".00")}");
+            Console.WriteLine($"Total : {Total.ToString(".00")}");
 
         }
 
@@ -48,32 +48,21 @@ namespace Tienda
             Console.WriteLine("Ingrese cantidad a pagar");
             Pagando = Convert.ToDecimal(Console.ReadLine());
             Cambio = (float)Pagando - Total;
-            ImprmirTicket();
-        }
-
-        private void ImprmirTicket()
-        {
-            Console.Clear();
-            NumCompra++;
-            //• Fecha
-            DateTime fecha = DateTime.Now;
-            Console.WriteLine($"Fecha: {fecha}");
-            //• Numero de caja
-            Console.WriteLine($"Caja: {Numero}");
-            //• Numero de compra
-            Console.WriteLine($"N Compra: {NumCompra}");
-            //• Lista de articulos
-            foreach (Articulo articulo in Cart.Lista)
+            Ticket ticket = new Ticket()
             {
-                Console.WriteLine($"{articulo.Nombre} - {articulo.Precio} - {articulo.Cantidad} - {articulo.Precio * articulo.Cantidad}");
-            }
-            //• IVA
-            //• Total, Pagado y cambio
-            MostrarTotales();
-            Console.WriteLine($"Pagado:{Pagando}");
-            Console.WriteLine($"Cambio:{Cambio}");
-
+                Lista = Cart.Lista,
+                Total = Total,
+                SubTotal = Subtotal,
+                IVA = Subtotal * .16,
+                Pagado = Pagando,
+                Cambio = Cambio,
+                Fecha = DateTime.Now,
+                NumCompra = Numero,
+            };
+            ticket.Imprmir();
         }
+
+
 
     }
 }
