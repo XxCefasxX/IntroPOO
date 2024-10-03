@@ -10,22 +10,25 @@ namespace CodigosExamen
     {
         static void Main(string[] args)
         {
-
+            Problema2();
         }
 
-        private void Problema1()
+        private static void Problema1()
         {
-            int x = 10;
-            for (int i = 0; i < 5; i++)
+            int x = 10; 
+            for (int i = 1; i < 5; i++)
             {
                 x += i;
             }
+            Console.WriteLine(x);
+            Console.ReadLine();
         }
 
-        private void Problema2()
+        private static void Problema2()
         {
             int[] nums = { 2, 4, 6, 8 };
             Console.WriteLine(nums[1] + nums[3]);
+            Console.ReadLine();
         }
 
         private void Problema3()
@@ -34,7 +37,7 @@ namespace CodigosExamen
             {
                 int result = i * 2;
             }
-            Console.WriteLine(result);
+            //Console.WriteLine(result);
         }
 
         private void Problema4()
@@ -42,6 +45,8 @@ namespace CodigosExamen
             List<int> numeros = new List<int> { 2, 4, 6, 8 };
             int resultado = SumarLista(numeros);
             Console.WriteLine("Resultado: " + resultado);
+            Console.ReadLine();
+
         }
 
         static int SumarLista(List<int> lista)
@@ -57,8 +62,9 @@ namespace CodigosExamen
         private void Problema5()
         {
             List<int> precios = new List<int> { 5, 3, 4, 7 };
-            int sumaIncorrecta = SumarPrecios(precios);
-            Console.WriteLine($"Suma total: {sumaIncorrecta}");
+            int suma = SumarPrecios(precios);
+            Console.WriteLine($"Suma total: {suma}");
+            Console.ReadLine();
         }
 
         static int SumarPrecios(List<int> precios)

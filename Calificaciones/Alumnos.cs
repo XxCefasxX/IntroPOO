@@ -16,5 +16,11 @@ namespace Calificaciones
         {
             InitializeComponent();
         }
+
+        private void AgregarAlumno(object sender, EventArgs e)
+        {
+            RegistrarAlumno reg = new RegistrarAlumno();
+            reg.Show();
+        }
     }
 }

@@ -1,0 +1,7 @@
+C:\Users\salaz\OneDrive\Escritorio\unidep\POO\Semana1\CodigosExamen\bin\Debug\CodigosExamen.exe.config
+C:\Users\salaz\OneDrive\Escritorio\unidep\POO\Semana1\CodigosExamen\bin\Debug\CodigosExamen.exe
+C:\Users\salaz\OneDrive\Escritorio\unidep\POO\Semana1\CodigosExamen\bin\Debug\CodigosExamen.pdb
+C:\Users\salaz\OneDrive\Escritorio\unidep\POO\Semana1\CodigosExamen\obj\Debug\CodigosExamen.csproj.AssemblyReference.cache
+C:\Users\salaz\OneDrive\Escritorio\unidep\POO\Semana1\CodigosExamen\obj\Debug\CodigosExamen.csproj.CoreCompileInputs.cache
+C:\Users\salaz\OneDrive\Escritorio\unidep\POO\Semana1\CodigosExamen\obj\Debug\CodigosExamen.exe
+C:\Users\salaz\OneDrive\Escritorio\unidep\POO\Semana1\CodigosExamen\obj\Debug\CodigosExamen.pdb
