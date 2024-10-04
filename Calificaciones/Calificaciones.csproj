@@ -54,6 +54,7 @@
     </Compile>
     <Compile Include="Central.cs" />
     <Compile Include="Entidades\Alumno.cs" />
+    <Compile Include="Entidades\Materia.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -73,6 +74,12 @@
     </Compile>
     <Compile Include="RegistrarAlumno.Designer.cs">
       <DependentUpon>RegistrarAlumno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrarMateria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistrarMateria.Designer.cs">
+      <DependentUpon>RegistrarMateria.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Alumnos.resx">
       <DependentUpon>Alumnos.cs</DependentUpon>
@@ -94,6 +101,9 @@
     </Compile>
     <EmbeddedResource Include="RegistrarAlumno.resx">
       <DependentUpon>RegistrarAlumno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistrarMateria.resx">
+      <DependentUpon>RegistrarMateria.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

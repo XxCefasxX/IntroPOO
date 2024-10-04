@@ -10,3 +10,5 @@ C:\Users\salaz\OneDrive\Escritorio\unidep\POO\Semana1\Calificaciones\obj\Debug\C
 C:\Users\salaz\OneDrive\Escritorio\unidep\POO\Semana1\Calificaciones\obj\Debug\Calificaciones.csproj.CoreCompileInputs.cache
 C:\Users\salaz\OneDrive\Escritorio\unidep\POO\Semana1\Calificaciones\obj\Debug\Calificaciones.exe
 C:\Users\salaz\OneDrive\Escritorio\unidep\POO\Semana1\Calificaciones\obj\Debug\Calificaciones.pdb
+C:\Users\salaz\OneDrive\Escritorio\unidep\POO\Semana1\Calificaciones\obj\Debug\Calificaciones.RegistrarAlumno.resources
+C:\Users\salaz\OneDrive\Escritorio\unidep\POO\Semana1\Calificaciones\obj\Debug\Calificaciones.RegistrarMateria.resources

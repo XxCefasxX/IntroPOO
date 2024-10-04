@@ -16,5 +16,10 @@ namespace Calificaciones
         {
             InitializeComponent();
         }
+
+        private void Materias_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

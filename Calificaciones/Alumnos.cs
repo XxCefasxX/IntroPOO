@@ -22,5 +22,10 @@ namespace Calificaciones
             RegistrarAlumno reg = new RegistrarAlumno();
             reg.Show();
         }
+
+        private void Alumnos_Load(object sender, EventArgs e)
+        {
+            gvalumnos.DataSource = Central.CaragarAlumnos();
+        }
     }
 }
