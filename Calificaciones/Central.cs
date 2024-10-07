@@ -15,8 +15,9 @@ namespace Calificaciones
             "Initial Catalog=Calificaciones;User ID=sa;Password=123456;TrustServerCertificate=True";
         //"Data Source=DESKTOP-9LEERSH\\PROGRAMMING;Initial Catalog=unidep;User ID=sa;Password=123456;TrustServerCertificate=True");
 
-        public static void RegistrarAlumno(Alumno alumno)
+        public static Response RegistrarAlumno(Alumno alumno)
         {
+            Response response = new Response();
             //codigo para registrar alumno
             SqlConnection conn = new SqlConnection(constrg);
             SqlCommand comm = new SqlCommand("insert into Alumnos (nombre,apellidos,matricula)values(@Nombre,@Apellidos,@Matricula) ", conn);
@@ -27,20 +28,40 @@ namespace Calificaciones
             {
                 conn.Open();
                 comm.ExecuteNonQuery();
+                response.Codigo = 1;
+                response.Mensaje = "Alumno regitrado correctamente";
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
-
+                response.Codigo = 2;
+                response.Mensaje = "Ocurrio un error, el alumno no pudo ser registrado";
+                Logger.Log(ex.Message, "RegistrarAlumno","Central");
             }
             finally
             {
                 conn.Close();
             }
+            return response;
         }
         public static DataTable CaragarAlumnos()
         {
             DataTable dtalumnos = new DataTable();
-            //codigo para obtener lista de alumnos
+            SqlConnection conn = new SqlConnection(constrg);
+            SqlCommand comm = new SqlCommand("select * from alumnos", conn);
+            try
+            {
+                conn.Open();
+                SqlDataAdapter da = new SqlDataAdapter(comm);
+                da.Fill(dtalumnos);
+            }
+            catch (Exception ex)
+            {
+                Logger.Log(ex.Message, "CaragarAlumnos", "Central");
+            }
+            finally
+            {
+                conn.Close();
+            }
             return dtalumnos;
         }
 

@@ -36,14 +36,14 @@
             // gvalumnos
             // 
             this.gvalumnos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.gvalumnos.Location = new System.Drawing.Point(99, 106);
+            this.gvalumnos.Location = new System.Drawing.Point(28, 75);
             this.gvalumnos.Name = "gvalumnos";
-            this.gvalumnos.Size = new System.Drawing.Size(240, 150);
+            this.gvalumnos.Size = new System.Drawing.Size(458, 149);
             this.gvalumnos.TabIndex = 0;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(264, 77);
+            this.button1.Location = new System.Drawing.Point(235, 12);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 1;
@@ -55,7 +55,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(498, 311);
+            this.ClientSize = new System.Drawing.Size(498, 253);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.gvalumnos);
             this.Name = "Alumnos";

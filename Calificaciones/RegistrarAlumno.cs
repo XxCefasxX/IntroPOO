@@ -34,7 +34,15 @@ namespace Calificaciones
                 Matricula = tbmatricula.Text
             };
 
-            Central.RegistrarAlumno(alumno);
+            Response resp = Central.RegistrarAlumno(alumno);
+            if (resp.Codigo == 1)
+            {
+                MessageBox.Show(resp.Mensaje);
+            }
+            else if (resp.Codigo == 2)
+            {
+                MessageBox.Show(resp.Mensaje,"Error");
+            }
         }
     }
 }
