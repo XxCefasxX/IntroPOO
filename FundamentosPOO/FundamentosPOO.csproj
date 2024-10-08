@@ -43,6 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interfaces\Admin.cs" />
+    <Compile Include="Interfaces\Cliente.cs" />
+    <Compile Include="Interfaces\IUsuario.cs" />
     <Compile Include="Persona.cs" />
     <Compile Include="Persona2.cs" />
     <Compile Include="Program.cs" />
