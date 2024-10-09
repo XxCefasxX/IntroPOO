@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="abstactas\Cuadrado.cs" />
+    <Compile Include="abstactas\Figura.cs" />
     <Compile Include="Interfaces\Admin.cs" />
     <Compile Include="Interfaces\Cliente.cs" />
     <Compile Include="Interfaces\IUsuario.cs" />

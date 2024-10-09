@@ -18,11 +18,18 @@ namespace FundamentosPOO
             ImprimeNombre();
             ImprimeEmail();
             ImprimeFecha();
+            Prueba();
         }
 
         public void ImprimeEmail()
         {
             Console.WriteLine(Email);
+        }
+        public override void Prueba()
+        {
+            base.Prueba();
+            Console.WriteLine("Este metodo esta reescrito");
+       
         }
 
     }

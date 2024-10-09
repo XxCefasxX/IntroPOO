@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace FundamentosPOO.Interfaces
 {
     internal interface IUsuario
-    {
+    { 
         string Nombre { get; set; }
         string Email {  get; set; }
         void Login();

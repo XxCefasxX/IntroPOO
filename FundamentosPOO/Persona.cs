@@ -20,6 +20,7 @@ namespace FundamentosPOO
         {
             Console.WriteLine(Nombre);
         }
+
         protected void ImprimeID()
         {
             Console.WriteLine(ID);
@@ -30,7 +31,12 @@ namespace FundamentosPOO
         }
         public void CambiarFecha(DateTime nuevaFecha)
         {
-            Creado = nuevaFecha;
+            Creado = nuevaFecha;    
+        }
+
+        public virtual void Prueba()
+        {
+            Console.WriteLine("Este es un mensaje de prueba");
         }
     }
 }
