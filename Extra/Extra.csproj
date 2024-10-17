@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{76F17E1F-2CAD-4021-886A-756110D367B9}</ProjectGuid>
+    <ProjectGuid>{DCF94B4C-9E0A-43A8-AFA2-BA69D7003DDB}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>FundamentosPOO</RootNamespace>
-    <AssemblyName>FundamentosPOO</AssemblyName>
+    <RootNamespace>Extra</RootNamespace>
+    <AssemblyName>Extra</AssemblyName>
     <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,14 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="abstactas\Cuadrado.cs" />
-    <Compile Include="abstactas\Figura.cs" />
-    <Compile Include="abstactas\Rectangulo.cs" />
-    <Compile Include="Interfaces\Admin.cs" />
-    <Compile Include="Interfaces\Cliente.cs" />
-    <Compile Include="Interfaces\IUsuario.cs" />
-    <Compile Include="Persona.cs" />
-    <Compile Include="Persona2.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
