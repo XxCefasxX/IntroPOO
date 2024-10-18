@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FundamentosPOO", "..\Fundam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extra", "..\Extra\Extra.csproj", "{DCF94B4C-9E0A-43A8-AFA2-BA69D7003DDB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hackathlon", "..\hackathlon\hackathlon.csproj", "{768C8690-68D3-4CD7-B13C-3A04C315EBF4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{DCF94B4C-9E0A-43A8-AFA2-BA69D7003DDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCF94B4C-9E0A-43A8-AFA2-BA69D7003DDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCF94B4C-9E0A-43A8-AFA2-BA69D7003DDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{768C8690-68D3-4CD7-B13C-3A04C315EBF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{768C8690-68D3-4CD7-B13C-3A04C315EBF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{768C8690-68D3-4CD7-B13C-3A04C315EBF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{768C8690-68D3-4CD7-B13C-3A04C315EBF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

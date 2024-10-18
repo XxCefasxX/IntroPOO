@@ -11,6 +11,9 @@ namespace hackathlon
         int intentosFallidos = 0;
         static void Main(string[] args)
         {
+
+
+
             //Juego del ahorcado
             //----------SI SE DESARROLLA INDIVIDUALMENTE-------------
             //Debera pedir una palabra al usuario para posteriormente ocultarla mostrando solo * en lugar de cada letra
@@ -24,6 +27,11 @@ namespace hackathlon
             //Mostrara la palabra mostrando solo * en lugar de cada letra
             //Luego debra pedir una letra y si esta se encuentra en la palabra mostrar la letra en donde corresponde
             //Si la letra no se encuentra se añade un intento y el dibijo cambia
+
+            //---------CODIGO PARA GENERAR NUMERO ALEATORIO---------------
+            //int limite = 0;//se usará para generar un numero aleatorio de 0 a este numero
+            //Random random = new Random();
+            //int indiceAleatorio = random.Next(limite);
         }
 
         public void DibujarPersona()
